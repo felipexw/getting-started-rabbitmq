@@ -1,6 +1,6 @@
 {
-  "name": "boilerplate-nodejs-cqrs-es-swagger",
-  "version": "0.0.0",
+  "name": "cqrs-ddd-es",
+  "version": "0.1.0",
   "description": "description",
   "author": {
     "name": "Felipe Appio",
