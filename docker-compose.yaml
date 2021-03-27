@@ -1,0 +1,37 @@
+version: "3.8"
+services:
+  rabbit:
+    image: rabbitmq:3-management
+    ports:
+      - 5672:5672
+      - 25672:25672
+      - 15672:15672
+      - 15692:15692
+    environment:
+      RABBITMQ_DEFAULT_USER: root
+      RABBITMQ_DEFAULT_PASS: root
+  # order_db:
+  #   image: mongo:latest
+  #   environment:
+  #     MONGO_INITDB_ROOT_USERNAME: root
+  #     MONGO_INITDB_ROOT_PASSWORD: rootpassword
+  #   ports:
+  #     - 27017:27017
+  #   volumes:
+  #     - /data/db
+  # invoice_db:
+  #   image: postgres
+  #   restart: always
+  #   environment:
+  #     POSTGRES_PASSWORD: root
+  #     POSTGRES_USER: root
+  #   ports:
+  #     - 5432:5432
+  # user_db:
+  #   image: couchdb
+  #   restart: always
+  #   environment:
+  #     COUCHDB_PASSWORD: root
+  #     COUCHDB_USER: root
+  #   ports:
+  #     - 5984:5984

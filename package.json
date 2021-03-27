@@ -1,0 +1,10 @@
+{
+  "name": "microservices-studies",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Felipe Appio <felipexw@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^5.12.2"
+  }
+}
