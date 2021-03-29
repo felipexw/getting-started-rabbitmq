@@ -1,9 +1,0 @@
-{
-  "name": "microservices-rabbit-mq-studies",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-    "amqplib": "^0.7.1"
-  }
-}
