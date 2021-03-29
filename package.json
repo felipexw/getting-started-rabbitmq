@@ -1,0 +1,11 @@
+{
+  "name": "rabbitmq-getting-started-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/felipexw/getting-started-rabbitmq.git",
+  "author": "Felipe Appio <felipexw@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.7.1"
+  }
+}
